@@ -22,6 +22,9 @@
 
 - (id)initWithDictionary:(NSDictionary*)dict withLinked:(NSDictionary*)linked;
 
+- (void)revert;
+- (void)copyFrom:(JSONAPIResource*)other;
+
 - (id)objectForKey:(NSString*)key;
 - (id)linkedResourceForKey:(NSString*)key;
 
